@@ -330,6 +330,7 @@
                             n === e.item.count ? (t.showPrev = !0, t.showNext = !1) : (t.showPrev = !0, t.showNext = !0)
                         }
                     })
+                  this.owl = n
                 },
                 methods: {
                     generateUniqueId: function () {
